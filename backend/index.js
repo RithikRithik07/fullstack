@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://fullstack-gray-zeta.vercel.app/it a',
   credentials: true
 }));
 app.use(express.json());
